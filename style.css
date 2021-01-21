@@ -225,7 +225,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: space-evenly;
+    width: 80vw;
 
     padding: 1rem 0 4rem 0;
 }
@@ -386,7 +386,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 30px 0;
+    width: 70vw;
+    margin: 30px auto;
 }
 
 .images-container img {
@@ -789,6 +790,24 @@ p {
 /* End of footer section stlyes */
 
 /* responsive styles */
+@media(max-width:1800px) {
+    .gallery-container {
+        width: 80vw;
+    }
+}
+
+@media(max-width:1500px) {
+    .gallery-container {
+        width: 90vw;
+    }
+}
+
+@media(max-width:1250px) {
+    .gallery-container {
+        width: 90vw;
+    }
+}
+
 @media(max-width:850px) {
     html {
         font-size: 52.5%;
